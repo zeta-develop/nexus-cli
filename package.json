@@ -1,0 +1,33 @@
+{
+  "name": "@nexusbilling/cli",
+  "version": "1.0.0",
+  "description": "CLI tool for Nexus installation and management",
+  "type": "module",
+  "bin": {
+    "nexus": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nexus",
+    "billing",
+    "cli",
+    "management"
+  ],
+  "author": "NexusBilling",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeta-develop/nexus-cli.git"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0",
+    "node-fetch": "^3.3.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
